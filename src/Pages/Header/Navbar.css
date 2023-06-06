@@ -1,0 +1,16 @@
+.navbar__links {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.navbar_link {
+    text-decoration: none;
+    color: black;
+}
+
+.navbar_link:hover{
+    text-decoration: none;
+    color: #ff0000;
+}

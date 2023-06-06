@@ -1,0 +1,36 @@
+.post__box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 70px;
+    height: auto;
+}
+
+.post__box > button{
+    padding: 15px 70px;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    background-color: rgba(230, 23, 23, 1);
+    color: white;
+    font-size: 16px;
+    box-shadow: 
+        0px 5px 10px 0px rgba(237, 5, 5, 0.4),
+        -6px -6px 20px rgba(194, 28, 28, 0.5);
+    transition: all 0.15s ease-in-out;
+}
+
+.post__box > button:hover{
+    background-color: rgb(172, 14, 14);
+    transition: all 0.22s ease-in-out;
+}
+
+.post__box > img{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.post__box > h3{
+    width: 400px;
+}

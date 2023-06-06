@@ -1,0 +1,65 @@
+.post{
+    display: flex;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 -2px 4px 0 rgb(35 31 32 / 5%), 0 4px 8px 0 rgb(35 31 32 / 10%);
+    position: relative;
+    overflow: hidden;
+    transition: box-shadow .2s ease;
+    will-change: box-shadow;
+    margin-bottom: 30px;
+    width: 1000px;
+}
+
+.post:hover{
+    display: flex;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 -2px 8px 0 rgb(35 31 32 / 15%), 0 4px 18px 0 rgb(35 31 32 / 18%);
+    position: relative;
+    overflow: hidden;
+    transition: box-shadow .2s ease;
+    will-change: box-shadow;
+}
+
+.postPart{
+    display: flex;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    padding-left: 20px;
+    flex-grow: 1;
+    padding-right: 24px;
+    justify-content: space-around;
+    flex-direction: column;
+
+}
+
+img{
+    width: 250px;
+    height: 250px;
+    margin: 10px;
+}
+
+.postPrice{
+    display: flex;
+    text-decoration: none;
+    color: black;
+}
+
+.postName{
+    text-decoration: none;
+    color: black;
+}
+
+.postDesc{
+    text-decoration: none;
+    color: black;
+}
+
+.select__post{
+    text-decoration: none;
+}
